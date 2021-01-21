@@ -1,0 +1,71 @@
+html, body
+{
+   height: 100%;
+}
+div#space
+{
+   width: 1px;
+   height: 50%;
+   margin-bottom: -277px;
+   float:left
+}
+div#container
+{
+   width: 1109px;
+   height: 555px;
+   margin: 0 auto;
+   position: relative;
+   clear: left;
+}
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+#preloader
+{
+   background: #000000 url("images/rolling-dots.gif") no-repeat center center;
+   bottom: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 99999;
+}
+#wb_Shape1
+{
+   transform: rotate(0deg);
+   transform-origin: 50% 50%;
+}
+#Shape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
