@@ -5068,3 +5068,12 @@ width: 100%;}
    width: 100% !important;
 }
 }
+#headerPanelMenu_panel 
+{
+    margin-top: 65px;
+}
+#headerPanelMenu-footer 
+{
+    font-size: 12px;
+    bottom: 70px !important;
+}
